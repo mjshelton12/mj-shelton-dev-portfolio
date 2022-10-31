@@ -38,7 +38,16 @@ export default function Contact() {
 
   function handleSubmit(event) {
     event.preventDefault()
-
+    console.log("You hit submit!")
+    // const fullMessage = form
+    // console.log(fullMessage)
+    // setForm({
+    //   name: "",
+    //   email: "",
+    //   subject: "",
+    //   message: "",
+    // })
+    // setAlert("Message sent!")
   }
 
   return (
