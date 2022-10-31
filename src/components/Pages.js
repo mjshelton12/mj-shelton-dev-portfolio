@@ -1,6 +1,7 @@
-export default function Pages({ page }) {
+export default function Pages({ page, setCurrent, current }) {
+
     return(
         <li>
-            <a href={page.src} target={page}>{page.title}</a>
+            <a href="#" onClick={()=>setCurrent(page.title)} className={current===page.title ? "selected" : "not-selected"} >{page.title}</a>
         </li>
 )}

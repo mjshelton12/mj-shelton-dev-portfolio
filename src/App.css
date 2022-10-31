@@ -22,7 +22,6 @@ body {
 
 .page-nav a {
   text-decoration: none;
-  color: rgb(225, 225, 194);
   margin-left: -10px
 }
 
@@ -33,27 +32,34 @@ body {
   margin: 30px;
 }
 
+.selected {
+  color: blue;
+}
+
+.not-selected {
+  color: rgb(225, 225, 194);
+}
+
 .social-header {
-  justify-content: right;
-}
-
-.social-footer {
-  justify-content: center;
-}
-
-.socials {
   justify-content: right;
   display: flex;
   width: 100%;
 }
 
-.socials ul li {
+.social-footer {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.socials li {
   justify-content: left;
   list-style-type: none;
   display: inline-block;
 }
 
-.socials ul li img {
+.socials li img {
   justify-content: left;
   height: 25px;
   margin-left: 10px;

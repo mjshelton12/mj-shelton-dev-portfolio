@@ -1,6 +1,10 @@
-export default function Projects({ page }) {
+import { projectData } from '../data/projectData';
+
+export default function Projects() {
     return(
-        <li>
-            <a href={page.src} target={page}>{page.title}</a>
-        </li>
+        <>
+        {projectData.map((project)=>(
+        <p>{project.title}</p>
+        ))}
+        </>
 )}
