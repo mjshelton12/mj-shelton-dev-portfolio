@@ -46,23 +46,32 @@ body {
   width: 100%;
 }
 
-.social-footer {
+.footer div {
   justify-content: center;
   display: flex;
   width: 100%;
   margin-top: -20px;
 }
 
+.footer div p {
+  color: rgb(225, 225, 194);
+  font-style: italic;
+}
+
+.socials {
+  margin-left: -40px;
+}
+
 .socials li {
-  justify-content: left;
+  justify-content: center;
   list-style-type: none;
   display: inline-block;
 }
 
 .socials li img {
-  justify-content: left;
   height: 25px;
-  margin-left: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .logo-contain {

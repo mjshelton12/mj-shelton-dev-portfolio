@@ -1,6 +1,0 @@
-export const projectData = [
-    {id: 1, src: 'https://raw.githubusercontent.com/Eat-The-Bagel/Escape-App/main/assets/landing.png', title: 'Escape App', description: 'Escape App is a text style game that is played within a browser page. The user navigates around a home using button prompts to find what item(s) they need to escape.'},
-    {id: 2, src: 'https://raw.githubusercontent.com/Eat-The-Bagel/Escape-App/main/assets/landing.png', title: 'Escape App 2', description: 'Escape App is a text style game that is played within a browser page. The user navigates around a home using button prompts to find what item(s) they need to escape.'},
-    {id: 3, src: 'https://raw.githubusercontent.com/Eat-The-Bagel/Escape-App/main/assets/landing.png', title: 'Escape App 3', description: 'Escape App is a text style game that is played within a browser page. The user navigates around a home using button prompts to find what item(s) they need to escape.'},
-    {id: 4, src: 'https://raw.githubusercontent.com/Eat-The-Bagel/Escape-App/main/assets/landing.png', title: 'Escape App 4', description: 'Escape App is a text style game that is played within a browser page. The user navigates around a home using button prompts to find what item(s) they need to escape.'}
-]

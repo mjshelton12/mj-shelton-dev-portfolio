@@ -1,6 +1,5 @@
 import About from "./About"
-import Work from "./Work"
-import Projects from "./Projects"
+import Portfolio from "./Portfolio"
 import Contact from "./Contact"
 import Resume from "./Resume"
 
@@ -11,11 +10,8 @@ export default function Core({current}) {
             case'About':
             return (<About/>)
             
-            case'Work':
-            return (<Work />)
-           
-            case'Technical Projects':
-            return (<Projects/>)
+            case'Portfolio':
+            return (<Portfolio />)
 
             case'Contact':
             return (<Contact />)
