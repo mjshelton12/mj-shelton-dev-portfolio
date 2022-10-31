@@ -7,33 +7,38 @@ export default function Contact() {
     message: "",
   });
 
-  const [alert, setAlert] = useState("Test")
+  const [alert, setAlert] = useState("");
+  const [emailAlert, setEmailAlert] = useState("");
 
-  const emailRegex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
+  const emailRegex =
+    /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 
   function checkEmail(email) {
-    console.log("checkEmail ", email)
-    return String(email)
-      .match(
-        emailRegex
-      );
+    return String(email).match(emailRegex);
   }
 
   function handleInputChange(event) {
-    if (event.target.name === "email") {
-      console.log(event.target.value)
-      const emailValid = checkEmail(event.target.value);
-      console.log("emailValid ", emailValid)
-      if (emailValid===null) {
-        setAlert("Email Invalid")
-      } else{
-        setAlert("")
-      }
+    const emailValid = checkEmail(event.target.value);
+    if (!emailValid) {
+      setEmailAlert("Email Invalid");
     } else {
-
+      setEmailAlert("");
     }
     setForm({ ...form, [event.target.name]: event.target.value });
-    console.log(form);
+    // console.log(form);
+  }
+
+  function handlePointer(event) {
+    if (!event.target.value) {
+      setAlert("Field Required");
+    } else {
+      setAlert("");
+    }
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault()
+
   }
 
   return (
@@ -43,8 +48,9 @@ export default function Contact() {
         type="textarea"
         name="name"
         autoComplete="off"
-        value={form.name}
+        // value={form.name}
         placeholder="input your name"
+        onPointerLeave={handlePointer}
         onChange={handleInputChange}
       ></input>
       <label htmlFor="email">Email:</label>
@@ -53,6 +59,7 @@ export default function Contact() {
         name="email"
         autoComplete="off"
         placeholder="input your email"
+        onPointerLeave={handlePointer}
         onChange={handleInputChange}
       ></input>
       <label htmlFor="subject">Subject:</label>
@@ -60,8 +67,9 @@ export default function Contact() {
         type="textarea"
         name="subject"
         autoComplete="off"
-        value={form.subject}
+        // value={form.subject}
         placeholder="subject"
+        onPointerLeave={handlePointer}
         onChange={handleInputChange}
       ></input>
       <label htmlFor="message">Message:</label>
@@ -69,16 +77,19 @@ export default function Contact() {
         type="textarea"
         name="message"
         autoComplete="off"
-        value={form.message}
+        // value={form.message}
         placeholder="write message here"
+        onPointerLeave={handlePointer}
         onChange={handleInputChange}
       ></input>
-      <p>{alert}</p>
-      <button type="submit">Submit</button>
+      <div className = "alert">
+        <p>{alert}</p>
+        <p>{emailAlert}</p>
+      </div>
+      <button type="submit"
+        onSubmit={handleSubmit}
+        >Submit</button>
     </form>
   );
 }
 
-/*
-    onChange
-*/
