@@ -37,68 +37,76 @@ export default function Contact() {
   }
 
   function handleSubmit(event) {
-    event.preventDefault()
-    console.log("You hit submit!")
-    // const fullMessage = form
-    // console.log(fullMessage)
-    // setForm({
-    //   name: "",
-    //   email: "",
-    //   subject: "",
-    //   message: "",
-    // })
-    // setAlert("Message sent!")
+    event.preventDefault();
+    const fullMessage = form
+      console.log(fullMessage)
+      setForm({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      })
+      setAlert("Message sent!")
   }
 
   return (
-    <form>
-      <label>Name:</label>
-      <input
-        type="textarea"
-        name="name"
-        autoComplete="off"
-        // value={form.name}
-        placeholder="input your name"
-        onPointerLeave={handlePointer}
-        onChange={handleInputChange}
-      ></input>
-      <label htmlFor="email">Email:</label>
-      <input
-        type="email"
-        name="email"
-        autoComplete="off"
-        placeholder="input your email"
-        onPointerLeave={handlePointer}
-        onChange={handleInputChange}
-      ></input>
-      <label htmlFor="subject">Subject:</label>
-      <input
-        type="textarea"
-        name="subject"
-        autoComplete="off"
-        // value={form.subject}
-        placeholder="subject"
-        onPointerLeave={handlePointer}
-        onChange={handleInputChange}
-      ></input>
-      <label htmlFor="message">Message:</label>
-      <input
-        type="textarea"
-        name="message"
-        autoComplete="off"
-        // value={form.message}
-        placeholder="write message here"
-        onPointerLeave={handlePointer}
-        onChange={handleInputChange}
-      ></input>
-      <div className = "alert">
+    <form className="contact-form">
+      <div className="input-div">
+        <label className="form-label">Name:</label>
+        <input
+          type="textarea"
+          name="name"
+          autoComplete="off"
+          value={form.name}
+          placeholder="input your name"
+          onPointerLeave={handlePointer}
+          onChange={handleInputChange}
+        ></input>
+        <label className="form-label" >Email:</label>
+        <input
+          type="email"
+          name="email"
+          autoComplete="off"
+          value={form.email}
+          placeholder="input your email"
+          onPointerLeave={handlePointer}
+          onChange={handleInputChange}
+        ></input>
+      </div>
+      <div className="input-div">
+        <label className="form-label">Subject:</label>
+        <input
+          type="textarea"
+          name="subject"
+          autoComplete="off"
+          value={form.subject}
+          placeholder="subject"
+          onPointerLeave={handlePointer}
+          onChange={handleInputChange}
+        ></input>
+      </div>
+      <div className="input-div">
+        <label className="form-label">Message:</label>
+        <input
+          className="message-text"
+          type="textarea"
+          name="message"
+          autoComplete="off"
+          value={form.message}
+          placeholder="write message here"
+          onPointerLeave={handlePointer}
+          onChange={handleInputChange}
+        ></input>
+      </div>
+      <div className="alert">
         <p>{alert}</p>
         <p>{emailAlert}</p>
       </div>
-      <button type="submit"
-        onSubmit={handleSubmit}
-        >Submit</button>
+      <div className="submit">
+        <button type="submit" onClick={handleSubmit}>
+          Submit
+        </button>
+      </div>
     </form>
   );
 }
-

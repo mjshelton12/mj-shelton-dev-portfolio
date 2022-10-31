@@ -127,13 +127,44 @@ body {
 
 
 
-.alert {
-  color: rgb(212, 74, 74);
+
+.contact-form div {
+  /* width: 100%; */
+  margin: 20px;
 }
 
+.input-div {
+  padding: 10px;
+  text-align: left;
+}
 
+.input-div input {
+  margin-right: 50px;
+  padding: 5px;
+}
 
+.form-label {
+  padding: 10px;
+  margin-left: 1px;
+  width: 75px;
+  display: inline-block;
+}
 
+.message-text {
+  width: 850px;
+  height: 150px;
+  vertical-align: top;
+}
+
+.alert {
+  color: rgb(212, 74, 74);
+  height: 45px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
 
 .resume div {
   width: 100%;
