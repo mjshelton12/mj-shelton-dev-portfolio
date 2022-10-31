@@ -139,6 +139,7 @@ body {
 .resume div img {
   width: 30px;
   display: inline;
+  opacity: 50%;
 }
 
 .resume div a {
@@ -146,11 +147,16 @@ body {
 }
 
 .resume div a h2 {
-  color: rgb(0, 0, 0);
+  color: rgb(78, 69, 46);
   font-size: 25px;
 }
 
 .skills {
+  color: rgb(78, 69, 46);
   margin-top: 50px;
+}
+
+.skills p {
+  color: rgb(101, 101, 91);
 }
 

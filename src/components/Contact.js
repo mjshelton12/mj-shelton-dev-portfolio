@@ -7,12 +7,31 @@ export default function Contact() {
     message: "",
   });
 
-  function checkEmail(email) {}
+  const [alert, setAlert] = useState("Test")
+
+  const emailRegex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
+
+  function checkEmail(email) {
+    console.log("checkEmail ", email)
+    return String(email)
+      .match(
+        emailRegex
+      );
+  }
 
   function handleInputChange(event) {
-    // if (event.target.name === "email") {
-    //   const emailValid = checkEmail(event.target.value);
-    // }else{}
+    if (event.target.name === "email") {
+      console.log(event.target.value)
+      const emailValid = checkEmail(event.target.value);
+      console.log("emailValid ", emailValid)
+      if (emailValid===null) {
+        setAlert("Email Invalid")
+      } else{
+        setAlert("")
+      }
+    } else {
+
+    }
     setForm({ ...form, [event.target.name]: event.target.value });
     console.log(form);
   }
@@ -23,7 +42,7 @@ export default function Contact() {
       <input
         type="textarea"
         name="name"
-        autocomplete="off"
+        autoComplete="off"
         value={form.name}
         placeholder="input your name"
         onChange={handleInputChange}
@@ -32,7 +51,7 @@ export default function Contact() {
       <input
         type="email"
         name="email"
-        autocomplete="off"
+        autoComplete="off"
         placeholder="input your email"
         onChange={handleInputChange}
       ></input>
@@ -40,7 +59,7 @@ export default function Contact() {
       <input
         type="textarea"
         name="subject"
-        autocomplete="off"
+        autoComplete="off"
         value={form.subject}
         placeholder="subject"
         onChange={handleInputChange}
@@ -49,13 +68,13 @@ export default function Contact() {
       <input
         type="textarea"
         name="message"
-        autocomplete="off"
+        autoComplete="off"
         value={form.message}
         placeholder="write message here"
         onChange={handleInputChange}
       ></input>
+      <p>{alert}</p>
       <button type="submit">Submit</button>
-      {/* <p>{message}</p> */}
     </form>
   );
 }
