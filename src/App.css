@@ -122,3 +122,35 @@ body {
   margin-right: 30px;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+.resume div {
+  width: 100%;
+  text-align: center;
+  margin-top: 85px;
+}
+
+.resume div img {
+  width: 30px;
+  display: inline;
+}
+
+.resume div a {
+  text-decoration: none;
+}
+
+.resume div a h2 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.skills {
+  margin-top: 50px;
+}
+

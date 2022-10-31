@@ -6,14 +6,13 @@ import Resume from "./Resume"
 
 
 export default function Core({current}) {
-    // const content = page.map((option) => <Pages key={option.id} page={option}/>)
     function displayComponent(){
         switch(current){
             case'About':
             return (<About/>)
             
             case'Work':
-            return (<h1>this is the Work</h1>)
+            return (<Work />)
            
             case'Technical Projects':
             return (<Projects/>)
@@ -21,7 +20,7 @@ export default function Core({current}) {
             case'Contact':
             return (<Contact />)
 
-            case'Resume':
+            case'Resumé':
             return (<Resume/>)
 
             default:
