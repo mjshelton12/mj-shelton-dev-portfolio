@@ -7,7 +7,7 @@ export default function Navigation({social, page}) {
     return (
       <>
         <section className="nav-bar">
-            <div className="socials">
+            <div className={"social-header, socials"}>
                 <ul>{socials}</ul>
             </div>
             <div className="page-nav">
