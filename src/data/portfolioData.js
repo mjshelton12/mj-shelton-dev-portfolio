@@ -5,7 +5,7 @@ export const portfolioData = [
     repo: 'https://github.com/Eat-The-Bagel/Escape-App',
     title: "Escape App",
     tech: "Express, MySQL, Handlebars.js",
-    img: '',
+    img: 'https://github.com/Eat-The-Bagel/Escape-App/raw/main/assets/landing.png',
     description:
       "Escape App is a text style game that is played within a browser page. The user navigates around a home using button prompts to find what item(s) they need to escape.",
   },

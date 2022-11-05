@@ -5,7 +5,7 @@ export default function Portfolio() {
 
     const list = portfolioData.map((project) => <Project key={project.id} project={project}/>);
     return(
-        <>
-        {list}
-        </>
+        <div className='project-container'>
+            {list}
+        </div>
 )}
