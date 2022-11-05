@@ -4,6 +4,7 @@ export default function Project({ project }) {
         className="project-box"
         style={{ backgroundImage: `url(${project.img})`, backgroundSize:`cover`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}
       >
+        <div className="project-info">
         <p>{project.title}</p>
         <a href={project.repo} target="blank">
           <img src="https://i.imgur.com/RQf6YHc.jpg" alt={project.title} />
@@ -13,6 +14,7 @@ export default function Project({ project }) {
         </a>
         <p>{project.description}</p>
         <p>Technology Used: {project.tech}</p>
+      </div>
       </div>
   );
 }

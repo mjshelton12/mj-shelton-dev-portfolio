@@ -142,8 +142,20 @@ body {
   border: solid;
   margin: 5px;
   flex: 1 1 300px;
-  opacity: 50%;
 }
+
+.project-info {
+  width: 100%;
+  height: 100%;
+  opacity: 0%;
+}
+
+.project-info:hover {
+  background-color:rgb(193, 193, 177, 0.5);
+  opacity: 100%;
+}
+
+
 
 
 
