@@ -334,7 +334,6 @@ body {
   }
 
   .skills p {
-    color: rgb(101, 101, 91);
     font-size: 40px;
     margin-left: 15px;
     margin-right: 15px;
@@ -358,14 +357,14 @@ body {
 
   .logo {
     width: 275px;
-    margin-top: -80px;
+    margin-top: -70px;
     margin-left: 0px;
   }
 
   .page-nav {
     display: flex;
     justify-content: center;
-    margin-top: 220px;
+    margin-top: 230px;
     margin-left: -15px;
   }
 
@@ -381,37 +380,31 @@ body {
     font-size: 21px;
   }
 
-  /* Half-Screen Contact Page*/
-
-  .form-label {
-    display: block;
-    margin-top: 40px;
+  /*  Phone Screen About Page*/
+  .project-info div {
+    font-size: 20px
   }
 
+  .project-tech {
+    font-size: 0px;
+  }
+  /* Half-Screen Contact Page*/
+
   .message-text {
-    width: 500px;
-    height: 300px;
-    vertical-align: top;
+    width: 280px;
   }
 
   /* Half-Screen Resume Page*/
 
   .resume div a h2 {
-    font-size: 50px;
-    margin-bottom: 70px;
+    font-size: 40px;
   }
 
   .skills h2 {
-    font-size: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 40px;
   }
 
   .skills p {
-    color: rgb(101, 101, 91);
-    font-size: 40px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 75px;
+    font-size: 33px;
   }
 }

@@ -18,7 +18,7 @@ export default function Project({ project }) {
           Live Site
         </a>
         <p className="project-details">{project.description}</p>
-        <p className="project-details">Technology Used: {project.tech}</p>
+        <p className="project-details project-tech">Technology Used: {project.tech}</p>
       </div>
     </div>
   );
