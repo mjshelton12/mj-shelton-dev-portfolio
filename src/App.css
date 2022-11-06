@@ -6,6 +6,8 @@ body {
   background-color: #80806b;
 }
 
+/* Navigation Bar */
+
 .nav-bar {
   height: 100px;
   margin: 20px;
@@ -29,7 +31,7 @@ body {
   font-size: 30px;
   list-style-type: none;
   display: inline-block;
-  margin: 30px;
+  margin: 40px;
 }
 
 .selected {
@@ -39,6 +41,8 @@ body {
 .not-selected {
   color: rgb(225, 225, 194);
 }
+
+/* Social Media Links for Header and Footer */
 
 .social-header {
   justify-content: right;
@@ -74,6 +78,8 @@ body {
   margin-right: 5px;
 }
 
+/* Logo */
+
 .logo-contain {
   display: flex;
   justify-content: left;
@@ -85,6 +91,8 @@ body {
   margin-left: 20px;
   border-radius: 100px;
 }
+
+/* Changable Content */
 
 .container {
   display: flex;
@@ -98,6 +106,8 @@ body {
   width: 1100px;
   height: 475px;
 }
+
+/* About Page */
 
 .about {
   justify-content: center;
@@ -131,6 +141,8 @@ body {
   margin-right: 30px;
   text-align: center;
 }
+
+/* Portfolio */
 
 .project-container {
   display: flex;
@@ -169,13 +181,14 @@ body {
   margin-top: -5px;
 }
 
+.project-info div {
+  font-weight: 500;
+  text-align: center;
+}
 
-
-
-
+/* Contact Page */
 
 .contact-form div {
-  /* width: 100%; */
   margin: 20px;
 }
 
@@ -212,6 +225,8 @@ body {
   justify-content: center;
 }
 
+/* Resume */
+
 .resume div {
   width: 100%;
   text-align: center;
@@ -242,3 +257,24 @@ body {
   color: rgb(101, 101, 91);
 }
 
+/* Half-Screen Sizing */
+
+@media (max-width:1200px) {
+
+  .core {
+    width: 600px;
+    height: 1085px;
+    margin-top: 70px;
+  }
+
+  .page-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+  }
+
+  .page-nav ul li {
+    margin: 20px;
+  }
+
+}
