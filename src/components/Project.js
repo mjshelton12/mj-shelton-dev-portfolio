@@ -1,20 +1,25 @@
 export default function Project({ project }) {
   return (
-      <div
-        className="project-box"
-        style={{ backgroundImage: `url(${project.img})`, backgroundSize:`cover`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}
-      >
-        <div className="project-info">
-        <p>{project.title}</p>
-        <a href={project.repo} target="blank">
+    <div
+      className="project-box"
+      style={{
+        backgroundImage: `url(${project.img})`,
+        backgroundSize: `cover`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <div className="project-info">
+        <div className="project-details">{project.title}</div>
+        <a className="project-details" href={project.repo} target="blank">
           <img src="https://i.imgur.com/RQf6YHc.jpg" alt={project.title} />
         </a>
-        <a href={project.site} target="blank">
+        <a className="project-details" href={project.site} target="blank">
           Live Site
         </a>
-        <p>{project.description}</p>
-        <p>Technology Used: {project.tech}</p>
+        <p className="project-details">{project.description}</p>
+        <p className="project-details">Technology Used: {project.tech}</p>
       </div>
-      </div>
+    </div>
   );
 }

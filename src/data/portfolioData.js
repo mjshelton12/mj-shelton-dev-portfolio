@@ -21,23 +21,23 @@ export const portfolioData = [
   },
   {
     id: 3,
-    site: 'https://drive.google.com/file/d/1lSCSM07wIkKfqXKe0oGIcq7YzztusFVH/view',
-    repo: 'https://github.com/mjshelton12/Rosterize_Employee_Tracker',
-    title: "Rosterize; Employee Tracker",
-    tech: "Node.js, MySQL, Inquier",
-    img: "https://camo.githubusercontent.com/6939a2ef470420299145e3f29bb44476795059aa25e87cb9c8f3416fcd5ad75c/68747470733a2f2f692e696d6775722e636f6d2f5a32754f537a482e6a7067",
-    description:
-      "Rosterize is an employee tracker that allows companies to keep track of employees, their positions, their salaries, their managers, and their departments. Employers can make use of GET, POST, PUT, and DELETE routes to track their staff.",
-  },
-  {
-    id: 4,
     site: "https://nwbootcamp.github.io/ShakenorStirred_Cocktails/",
     repo: "https://github.com/NWbootcamp/ShakenorStirred_Cocktails",
     title: "Shaken or Stirred Coctail App",
     tech: "Cocktail API, TimeZone DB API, Pexels Photo API, JavaScript",
     img: "https://github.com/NWbootcamp/ShakenorStirred_Cocktails/raw/main/assets/images/landingSC.png",
     description:
-      "An app that takes in a user's age and preferences then suggests a cocktail for them to make that evening. Makes use of multiple API calls in order to get a drink to the user's specificities and then gives them a recipe card including an image of the cocktail, the ingredients needed, and instructions for how to make it.",
+      "An app that takes in a user's age and preferences then suggests a cocktail for them to make that evening. Makes use of multiple API calls in order to get a drink to the user's specificities and then returns a recipe card.",
+  },
+  {
+    id: 4,
+    site: 'https://drive.google.com/file/d/1lSCSM07wIkKfqXKe0oGIcq7YzztusFVH/view',
+    repo: 'https://github.com/mjshelton12/Rosterize_Employee_Tracker',
+    title: "Rosterize; Employee Tracker",
+    tech: "Node.js, MySQL, Inquier",
+    img: "https://camo.githubusercontent.com/6939a2ef470420299145e3f29bb44476795059aa25e87cb9c8f3416fcd5ad75c/68747470733a2f2f692e696d6775722e636f6d2f5a32754f537a482e6a7067",
+    description:
+      "Rosterize is an employee tracker that allows companies to keep track of employees, their positions, their salaries, their managers, and their departments. Employers can make use of get, post, put, and delete routes to track staff.",
   },
   {
     id: 5,
