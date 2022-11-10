@@ -17,14 +17,6 @@ export const socialData = [
   },
   {
     id: 3,
-    site: "stack overflow",
-    src: "https://stackoverflow.com/users/19185996/mjshelton12",
-    img: "https://i.imgur.com/cF9q7KM.jpg",
-    alt: "stack overflow logo",
-    target: 'blank',
-  },
-  {
-    id: 4,
     site: "Email",
     src: "mailto:mjshelton12@comcast.net",
     img: "https://imgur.com/y9pUlMt.jpg",
