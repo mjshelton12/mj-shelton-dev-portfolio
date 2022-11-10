@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     id: 1,
     site: 'https://eat-the-bagel.herokuapp.com/',
-    repo: 'https://github.com/Eat-The-Bagel/Escape-App',
+    repo: 'https://github.com/mjshelton12/MJs-Escape-App',
     title: "Escape App",
     tech: "Express, MySQL, Handlebars.js",
     img: 'https://github.com/Eat-The-Bagel/Escape-App/raw/main/assets/landing.png',

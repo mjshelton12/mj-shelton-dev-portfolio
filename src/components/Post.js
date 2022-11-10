@@ -1,5 +1,13 @@
-export default function Post({ post }) {
-    return (
+export default function Post({
+  post,
+  setArticle,
+  setCurrent,
+}) {
+  return (
+    <a href="#" onClick={() => {
+        setCurrent('BlogPost')
+        setArticle(post.id)
+        }}>
       <div
         className="project-box"
         style={{
@@ -14,6 +22,6 @@ export default function Post({ post }) {
           <p className="project-details">{post.description}</p>
         </div>
       </div>
-    );
-  }
-  
+    </a>
+  );
+}

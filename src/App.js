@@ -12,7 +12,7 @@ function App() {
     <div>
       <Navigation setCurrent={setCurrent} current={current}/>
       <Header />
-      <Core current={current} />
+      <Core setCurrent={setCurrent} current={current} />
       <Footer/>
     </div>
   );

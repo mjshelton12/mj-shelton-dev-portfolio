@@ -1,10 +1,11 @@
 import About from "./About"
 import Portfolio from "./Portfolio"
 import Blog from "./Blog"
+import BlogPost from "./BlogPost"
 import Resume from "./Resume"
 
 
-export default function Core({current}) {
+export default function Core({setCurrent, current}) {
     function displayComponent(){
         switch(current){
             case'About':
@@ -14,7 +15,10 @@ export default function Core({current}) {
             return (<Portfolio />)
 
             case'Blog':
-            return (<Blog />)
+            return (<Blog setCurrent={setCurrent} current={current}/>)
+
+            case'BlogPost':
+            return (<BlogPost setCurrent={setCurrent} />)
 
             case'Contact/Resumé':
             return (<Resume/>)
