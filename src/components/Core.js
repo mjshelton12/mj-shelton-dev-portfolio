@@ -1,6 +1,6 @@
 import About from "./About"
 import Portfolio from "./Portfolio"
-import Contact from "./Contact"
+import Blog from "./Blog"
 import Resume from "./Resume"
 
 
@@ -13,10 +13,10 @@ export default function Core({current}) {
             case'Portfolio':
             return (<Portfolio />)
 
-            case'Contact':
-            return (<Contact />)
+            case'Blog':
+            return (<Blog />)
 
-            case'Resumé':
+            case'Contact/Resumé':
             return (<Resume/>)
 
             default:
