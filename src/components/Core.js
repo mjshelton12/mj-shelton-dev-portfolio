@@ -1,7 +1,6 @@
 import About from "./About"
 import Portfolio from "./Portfolio"
 import Blog from "./Blog"
-import BlogPost from "./BlogPost"
 import Resume from "./Resume"
 
 
@@ -15,10 +14,7 @@ export default function Core({setCurrent, current}) {
             return (<Portfolio />)
 
             case'Blog':
-            return (<Blog setCurrent={setCurrent} current={current}/>)
-
-            case'BlogPost':
-            return (<BlogPost setCurrent={setCurrent} />)
+            return (<Blog />)
 
             case'Contact/Resumé':
             return (<Resume/>)

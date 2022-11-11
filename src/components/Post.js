@@ -1,12 +1,10 @@
 export default function Post({
   post,
   setArticle,
-  setCurrent,
 }) {
   return (
     <a href="#" onClick={() => {
-        setCurrent('BlogPost')
-        setArticle(post.id)
+        setArticle({title: post.id, object: post})
         }}>
       <div
         className="project-box"
