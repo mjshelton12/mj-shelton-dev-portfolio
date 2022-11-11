@@ -17,4 +17,13 @@ export const blogData = [
       "You know what all the cool kids are doing? Creating regexes!",
     blog: "*air guitar solo*",
   },
+  {
+    id: 3,
+    img: "https://camo.githubusercontent.com/8274f836ace6e19818d62b94f443ca80b81c2eb643ad5c5d77b8f405e51f8478/68747470733a2f2f692e696d6775722e636f6d2f636f33756349492e6a706567",
+    alt: "Database Image",
+    title: "MySQL vs MongoDB",
+    description:
+      "A fight to the death between databases",
+    blog: "Let's get ready to rumble!",
+  },
 ];

@@ -187,51 +187,12 @@ body {
   text-align: center;
 }
 
-/* Contact Page */
-
-.contact-form div {
-  margin: 20px;
-}
-
-.input-div {
-  padding: 10px;
-  text-align: left;
-}
-
-.input-div input {
-  margin-right: 50px;
-  padding: 5px;
-}
-
-.form-label {
-  padding: 10px;
-  margin-left: 1px;
-  width: 75px;
-  display: inline-block;
-}
-
-.message-text {
-  width: 850px;
-  height: 150px;
-  vertical-align: top;
-}
-
-.alert {
-  color: rgb(212, 74, 74);
-  height: 45px;
-}
-
-.submit {
-  display: flex;
-  justify-content: center;
-}
-
 /* Resume */
 
 .resume div {
   width: 100%;
   text-align: center;
-  margin-top: 85px;
+  margin-top: 40px;
 }
 
 .resume div img {
@@ -240,13 +201,25 @@ body {
   opacity: 50%;
 }
 
-.resume div a {
+.download {
   text-decoration: none;
 }
 
 .resume div a h2 {
   color: rgb(78, 69, 46);
   font-size: 25px;
+}
+
+.resume div h2 {
+  color: rgb(78, 69, 46);
+  font-size: 25px;
+}
+
+.email a img {
+  height: 35px;
+  width: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .skills {

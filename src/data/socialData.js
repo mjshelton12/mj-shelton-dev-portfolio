@@ -18,7 +18,7 @@ export const socialData = [
   {
     id: 3,
     site: "Email",
-    src: "mailto:mjshelton12@comcast.net",
+    src: "mailto:inquiries.mjshelton@gmail.com",
     img: "https://imgur.com/y9pUlMt.jpg",
     alt: "Email Logo",
   },
