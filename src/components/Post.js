@@ -4,7 +4,7 @@ export default function Post({
 }) {
   return (
     <a href="#" onClick={() => {
-        setArticle({title: post.id, object: post})
+        setArticle({display: post.id, object: post})
         }}>
       <div
         className="project-box"
