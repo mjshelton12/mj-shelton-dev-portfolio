@@ -7,7 +7,7 @@ export default function Post({
         setArticle({display: post.id, object: post})
         }}>
       <div
-        className="project-box"
+        className="blog-box"
         style={{
           backgroundImage: `url(${post.img})`,
           backgroundSize: `cover`,
@@ -15,9 +15,9 @@ export default function Post({
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="project-info">
-          <div className="project-details">{post.title}</div>
-          <p className="project-details">{post.description}</p>
+        <div className="blog-info">
+          <div className="blog-details">{post.title}</div>
+          <p className="blog-details">{post.description}</p>
         </div>
       </div>
     </a>

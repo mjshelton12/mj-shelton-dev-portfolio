@@ -187,6 +187,74 @@ body {
   text-align: center;
 }
 
+/* Blog */
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blog-container a {
+  text-decoration: none;
+  width: 95%;
+}
+
+.blog-box {
+  width: 100%;
+  margin-top: 19px;
+  flex: 1 1 300px;
+  border-radius: 25px;
+}
+
+.blog-info {
+  margin-top: -5px;
+  width: 100%;
+  height: 140px;
+  opacity: 0%;
+  border-radius: 25px;
+}
+
+.blog-details {
+  margin-top: 5px;
+  padding: 5px;
+  color: rgb(101, 101, 91);
+}
+
+.blog-info:hover {
+  background-color: rgb(193, 193, 177, 0.9);
+  opacity: 100%;
+}
+
+.blog-info p {
+  margin-top: -5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.blog-info div {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.blog-post {
+  text-align: center;
+}
+
+.blog-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.blog-content {
+  text-align: left;
+  height: 350px;
+  width: 900px;
+  overflow-y: scroll;
+}
+
 /* Resume */
 
 .resume div {

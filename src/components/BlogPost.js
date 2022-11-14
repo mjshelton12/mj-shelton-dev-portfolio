@@ -4,9 +4,9 @@ export default function BlogPost({setArticle, article}) {
     var blog = parse(article.object.blog)
 
     return(
-        <div>
-            <p>{article.object.title}</p>
-            <div>
+        <div className="blog-post">
+            <p className="blog-title">{article.object.title}</p>
+            <div className="blog-content">
                 <p>{blog}</p>
             </div>
             <button href="#" onClick={() => {

@@ -21,7 +21,7 @@ export default function Blog() {
     }
 
     return(
-        <div className='project-container'>
+        <div className='blog-container'>
             {displayContent()}
         </div>
 )}
