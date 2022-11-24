@@ -29,7 +29,7 @@
 
 ## Special Thanks To:
 
-The following sites gave coding tips to help me make the site as functional as posible
+The following sites gave coding tips to help me make the site as functional as possible
 
 * [Stackoverflow for Email Regex](https://stackoverflow.com/questions/16167983/best-regular-expression-for-email-validation-in-c-sharp)
 * [Stackoverflow for CSS Width Troubleshooting](https://stackoverflow.com/questions/10816853/css-label-width-not-taking-effect)

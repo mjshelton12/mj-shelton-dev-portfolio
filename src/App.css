@@ -243,6 +243,11 @@ body {
   text-align: center;
 }
 
+.blog-post button {
+  background-color:#80806b;
+  color: rgb(225, 225, 194);
+}
+
 .blog-title {
   font-size: 25px;
   font-weight: bold;
@@ -250,9 +255,14 @@ body {
 
 .blog-content {
   text-align: left;
-  height: 350px;
+  height: 325px;
   width: 900px;
   overflow-y: scroll;
+}
+
+.blog-disclaimer {
+  font-size: 10px;
+  font-style: italic;
 }
 
 /* Resume */

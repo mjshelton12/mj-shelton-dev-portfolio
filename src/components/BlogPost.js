@@ -9,6 +9,7 @@ export default function BlogPost({setArticle, article}) {
             <div className="blog-content">
                 <p>{blog}</p>
             </div>
+            <p className="blog-disclaimer">Scroll to keep reading</p>
             <button href="#" onClick={() => {
         setArticle({title: 'Blog', object: {}})
         }}>Return to Blog List</button>
