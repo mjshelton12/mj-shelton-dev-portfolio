@@ -8,9 +8,9 @@ export default function Navigation({setCurrent, current}) {
       <>
         <section className="nav-bar">
             <div className="social-header">
-                <ul className="socials"><Socials /></ul>
+                <ul className="socials" data-aos="fade"><Socials /></ul>
             </div>
-            <div className="page-nav">
+            <div className="page-nav" data-aos="fade">
                 <ul>{pages}</ul>
             </div>
         </section>
