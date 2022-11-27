@@ -26,7 +26,7 @@ export default function Core({setCurrent, current}) {
 
     return(
         <section className="container" >
-            <div className="core">
+            <div className="core" data-aos="fade">
                 {displayComponent()}
             </div>
         </section>

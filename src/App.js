@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
       <Navigation setCurrent={setCurrent} current={current}/>
-      <Header />
+      {/* <Header /> */}
       <Core setCurrent={setCurrent} current={current} />
       <Footer/>
     </div>
