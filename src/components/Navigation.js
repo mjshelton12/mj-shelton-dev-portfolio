@@ -66,6 +66,7 @@ export default function Navigation({ setCurrent, current }) {
                 <a
                   href="#"
                   class="font-semibold text-gray-900 hover:text-gray-900"
+                  onClick={() => setCurrent("About")}
                 >
                   About
                 </a>
@@ -73,6 +74,7 @@ export default function Navigation({ setCurrent, current }) {
                 <a
                   href="#"
                   class="font-semibold text-gray-900 hover:text-gray-900"
+                  onClick={() => setCurrent("Portfolio")}
                 >
                   Portfolio
                 </a>
@@ -80,6 +82,7 @@ export default function Navigation({ setCurrent, current }) {
                 <a
                   href="#"
                   class="font-semibold text-gray-900 hover:text-gray-900"
+                  onClick={() => setCurrent("Blog")}
                 >
                   Blog
                 </a>
@@ -87,6 +90,7 @@ export default function Navigation({ setCurrent, current }) {
                 <a
                   href="#"
                   class="font-semibold text-gray-900 hover:text-gray-900"
+                  onClick={() => setCurrent("Contact/Resumé")}
                 >
                   Resume/Contact
                 </a>
@@ -134,6 +138,7 @@ export default function Navigation({ setCurrent, current }) {
                       <a
                         href="#"
                         class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                        onClick={() => setCurrent("About")}
                       >
                         About
                       </a>
@@ -141,6 +146,7 @@ export default function Navigation({ setCurrent, current }) {
                       <a
                         href="#"
                         class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                        onClick={() => setCurrent("Portfolio")}
                       >
                         Portfolio
                       </a>
@@ -148,6 +154,7 @@ export default function Navigation({ setCurrent, current }) {
                       <a
                         href="#"
                         class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                        onClick={() => setCurrent("Blog")}
                       >
                         Blog
                       </a>
@@ -155,6 +162,7 @@ export default function Navigation({ setCurrent, current }) {
                       <a
                         href="#"
                         class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                        onClick={() => setCurrent("Contact/Resumé")}
                       >
                         Contact/Resume
                       </a>
