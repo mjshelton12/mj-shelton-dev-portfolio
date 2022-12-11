@@ -1,5 +1,4 @@
 import { pageData } from "../data/pageData";
-import Socials from "./Socials";
 import Pages from "./Pages";
 
 export default function Navigation({ setCurrent, current }) {
