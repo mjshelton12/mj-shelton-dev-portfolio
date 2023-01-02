@@ -94,10 +94,10 @@ body {
 
 /* Changable Content */
 
-.container {
+/* .container {
   display: flex;
   justify-content: center;
-}
+} */
 
 .core {
   background-color: rgb(193, 193, 177);

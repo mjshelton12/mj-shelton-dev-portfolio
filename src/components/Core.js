@@ -25,8 +25,8 @@ export default function Core({setCurrent, current}) {
     }
 
     return(
-        <section className="container" >
-            <div className="core" data-aos="fade">
+        <section className="container px-4 mx-auto" >
+            <div className="flex justify-center" data-aos="fade">
                 {displayComponent()}
             </div>
         </section>
