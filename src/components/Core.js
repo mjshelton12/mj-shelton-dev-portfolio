@@ -25,8 +25,8 @@ export default function Core({setCurrent, current}) {
     }
 
     return(
-        <section className="container px-4 mx-auto" >
-            <div className="flex justify-center" data-aos="fade">
+        <section className="container mx-auto" >
+            <div className="flex justify-center grid h-screen place-items-center" data-aos="fade">
                 {displayComponent()}
             </div>
         </section>
