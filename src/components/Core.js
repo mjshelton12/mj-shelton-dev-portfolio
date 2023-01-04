@@ -4,7 +4,7 @@ import Blog from "./Blog"
 import Resume from "./Resume"
 
 
-export default function Core({setCurrent, current}) {
+export default function Core({ current }) {
     function displayComponent(){
         switch(current){
             case'About':
