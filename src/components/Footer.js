@@ -2,7 +2,7 @@ import Socials from './Socials'
 
 export default function Footer() {
     return (
-        <section className="footer sticky">
+        <section className="footer">
             <div className="absolute bottom-6 social-footer second bg-cyan-300">
                 <ul className="socials"><Socials /></ul>
             </div>

@@ -12,11 +12,11 @@ export default function Navigation({ setCurrent }) {
   // ));
   return (
     <>
-      <div className="fixed w-full bg-gradient-to-r from-sky-200 to-teal-100">
-        <div className="px-6 mt-6 block sticky">
+      <div className="fixed w-full bg-gradient-to-r from-sky-200 to-teal-100 inline-block">
+        <div className="px-6 mt-6 block">
           <div>    
             <nav
-              className="flex lg:h-9 items-center justify-between"
+              className="flex lg:h-9 items-center justify-between nav-bar"
               aria-label="Global"
             >
               <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
