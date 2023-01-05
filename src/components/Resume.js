@@ -6,7 +6,7 @@ export default function Resume() {
       <div>
         <a className='download' href={resumeData.download}>
           <h2>Click to Download MJ Shelton's Resume</h2>
-          <img id="about" src={resumeData.img} alt={resumeData.alt} />
+          <img src={resumeData.img} alt={resumeData.alt} />
         </a>
       </div>
       <div className="email">
