@@ -54,11 +54,11 @@ body {
   justify-content: center;
   display: flex;
   width: 100%;
-  margin-top: -20px;
+  padding: 5px;
 }
 
 .footer div p {
-  color: rgb(57, 50, 197);
+  color: gray;
   font-style: italic;
 }
 

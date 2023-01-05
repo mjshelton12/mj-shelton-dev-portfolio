@@ -12,17 +12,17 @@ export default function Navigation({ setCurrent }) {
   // ));
   return (
     <>
-      <div className="fixed w-full bg-white">
-        <div className="px-6 pt-6 lg:px-8">
-          <div>
+      <div className="fixed w-full bg-gradient-to-r from-sky-200 to-teal-100">
+        <div className="px-6 mt-6">
+          <div>    
             <nav
               className="flex h-9 items-center justify-between"
               aria-label="Global"
             >
               <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-                <a href="google.com"><span></span></a>
+            
                 <a href="#" className="-m-1.5 p-1.5">
-                  <span className="font-semibold text-xl">MJ Shelton</span><span>, Fullstack Engineer</span>
+                  <span className="font-semibold text-xl">MJ Shelton</span><span> | Fullstack Engineer</span>
                 </a>
               </div>
               <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
@@ -33,7 +33,6 @@ export default function Navigation({ setCurrent }) {
                 >
                   <span>About BIG</span>
                 </a>
-
                 <a
                   href="#"
                   className="font-semibold text-gray-900 hover:text-gray-900"

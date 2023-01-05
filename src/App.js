@@ -24,6 +24,7 @@ function App() {
     <div>
       <Navigation setCurrent={setCurrent} current={current}/>
       {/* <Header /> */}
+      <br></br>
       <Core setCurrent={setCurrent} current={current} />
       <Footer/>
     </div>
