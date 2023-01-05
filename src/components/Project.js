@@ -57,7 +57,7 @@ export default function Project({ project }) {
             </button>
             <a href={project.repo} target="blank">
               <img
-                className="github hover:bg-blue-400"
+                className="github hover:bg-blue-300"
                 src="https://i.imgur.com/RQf6YHc.jpg"
                 alt={project.title}
               />
@@ -65,7 +65,7 @@ export default function Project({ project }) {
           </div>
           <p className="mt-2">{project.description}</p>
           <p className="text-sm mt-2">
-            <b className="text-gray-700 font-semibold">Technology Used:</b>{" "}
+            <b className="text-gray-800 font-semibold">Technology Used:</b>{" "}
             {project.tech}
           </p>
         </div>

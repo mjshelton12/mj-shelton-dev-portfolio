@@ -3,6 +3,7 @@ export default function Post({
   setArticle,
 }) {
   return (
+    <>
     <a href="#" onClick={() => {
         setArticle({display: post.id, object: post})
         }}>
@@ -21,5 +22,6 @@ export default function Post({
         </div>
       </div>
     </a>
+    </>
   );
 }
