@@ -13,10 +13,10 @@ export default function Navigation({ setCurrent }) {
   return (
     <>
       <div className="fixed w-full bg-gradient-to-r from-sky-200 to-teal-100">
-        <div className="px-6 mt-6">
+        <div className="px-6 mt-6 block sticky">
           <div>    
             <nav
-              className="flex h-9 items-center justify-between"
+              className="flex lg:h-9 items-center justify-between"
               aria-label="Global"
             >
               <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
@@ -31,14 +31,14 @@ export default function Navigation({ setCurrent }) {
                   className="font-semibold text-gray-900 hover:text-gray-900"
                   onClick={() => setCurrent("About")}
                 >
-                  <span>About BIG</span>
+                  <span>About</span>
                 </a>
                 <a
                   href="#"
                   className="font-semibold text-gray-900 hover:text-gray-900"
                   onClick={() => setCurrent("Portfolio")}
                 >
-                  Portfolio BIG
+                  Portfolio
                 </a>
 
                 <a
@@ -46,7 +46,7 @@ export default function Navigation({ setCurrent }) {
                   className="font-semibold text-gray-900"
                   onClick={() => setCurrent("Blog")}
                 >
-                  Blog BIG
+                  Blog
                 </a>
 
                 <a
@@ -54,7 +54,7 @@ export default function Navigation({ setCurrent }) {
                   className="font-semibold text-gray-900 hover:text-gray-900"
                   onClick={() => setCurrent("Contact/Resumé")}
                 >
-                  Resume/Contact BIG
+                  Resume/Contact
                 </a>
               </div>
               <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end"></div>
@@ -70,27 +70,8 @@ export default function Navigation({ setCurrent }) {
                       <span className="sr-only">MJ Shelton</span>
                     </a>
                   </div>
-                  <div className="flex">
-                    <button
-                      type="button"
-                      className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-                    >
-                      <span className="sr-only">Close menu</span>
-                      <svg
-                        className="h-6 w-6"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        aria-hidden="true"
-                      >
-                        <path
-                          d="M6 18L18 6M6 6l12 12"
-                        />
-                      </svg>
-                    </button>
-                  </div>
                 </div>
-                <div className="mt-6 flow-root">
+                <div className="mt-6 flow-root bg-gradient-to-r from-sky-200 to-teal-100">
                   <div className="-my-6 divide-y divide-gray-500/10">
                     <div className="space-y-2 py-6">
                       <a
