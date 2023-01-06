@@ -1,18 +1,7 @@
-// import { pageData } from "../data/pageData";
-// import Pages from "./Pages";
-
 export default function Navigation({ setCurrent }) {
-  // const pages = pageData.map((option) => (
-  //   <Pages
-  //     key={option.id}
-  //     page={option}
-  //     setCurrent={setCurrent}
-  //     current={current}
-  //   />
-  // ));
   return (
     <>
-      <div className="fixed w-full bg-gradient-to-r from-sky-200 to-teal-100 inline-block">
+      <div className="relative fixed w-full bg-gradient-to-r from-sky-200 to-teal-100 inline-block">
         <div className="px-6 mt-6 block">
           <div>    
             <nav
@@ -28,14 +17,14 @@ export default function Navigation({ setCurrent }) {
               <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
                 <a
                   href="#"
-                  className="font-semibold text-gray-900 hover:text-gray-900"
+                  className="font-semibold text-gray-900 hover:text-gray-900 mx-4"
                   onClick={() => setCurrent("About")}
                 >
                   <span>About</span>
                 </a>
                 <a
                   href="#"
-                  className="font-semibold text-gray-900 hover:text-gray-900"
+                  className="font-semibold text-gray-900 hover:text-gray-900 mx-4"
                   onClick={() => setCurrent("Portfolio")}
                 >
                   Portfolio
@@ -43,7 +32,7 @@ export default function Navigation({ setCurrent }) {
 
                 <a
                   href="#"
-                  className="font-semibold text-gray-900"
+                  className="font-semibold text-gray-900 mx-4"
                   onClick={() => setCurrent("Blog")}
                 >
                   Blog
@@ -51,7 +40,7 @@ export default function Navigation({ setCurrent }) {
 
                 <a
                   href="#"
-                  className="font-semibold text-gray-900 hover:text-gray-900"
+                  className="font-semibold text-gray-900 hover:text-gray-900 mx-4"
                   onClick={() => setCurrent("Contact/Resumé")}
                 >
                   Resume/Contact
