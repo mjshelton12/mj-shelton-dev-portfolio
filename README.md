@@ -6,6 +6,7 @@
 * JavaScript - Used to create seeds, routes, and models
 * HTML - Used within handlebars for frontend of site
 * CSS - Used to create look and reactivity of site
+* Tailwindcss - Used to create design and look of site 
 
 ## Live Site
 
@@ -13,7 +14,7 @@
 
 ## Overview of Site
 
-![MJ Shelton Portfolio](https://i.imgur.com/yP1OgPK.jpg)
+![MJ Shelton Portfolio](https://i.imgur.com/TOVgcQ8.jpg)
 
 
 ## Summary
