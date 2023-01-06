@@ -4,7 +4,7 @@ export default function BlogPost({setArticle, article}) {
     var blog = parse(article.object.blog)
 
     return(
-        <div className="blog-post">
+        <div className="blog-post" data-aos="fade">
             <p className="blog-title">{article.object.title}</p>
             <div className="blog-content">
                 <p>{blog}</p>

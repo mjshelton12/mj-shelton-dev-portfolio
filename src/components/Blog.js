@@ -36,5 +36,5 @@ export default function Blog() {
     }
   }
 
-  return <div>{displayContent()}</div>;
+  return <div data-aos="fade">{displayContent()}</div>;
 }

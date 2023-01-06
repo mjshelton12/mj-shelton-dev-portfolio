@@ -7,7 +7,7 @@ export default function Portfolio() {
   ));
   return (
     <>
-      <div>
+      <div data-aos="fade">
         <div className="text-center text-lg italic font-semibold">
           <h2>Scroll Over Projects to See More Info</h2>
         </div>

@@ -26,7 +26,7 @@ export default function Core({ current }) {
 
     return(
         <section className="container mx-auto mt-60 lg:mt-5 relative" >
-            <div className="flex justify-center grid core place-items-center" data-aos="fade">
+            <div className="flex justify-center grid core place-items-center">
                 {displayComponent()}
             </div>
         </section>

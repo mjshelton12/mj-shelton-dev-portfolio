@@ -7,6 +7,7 @@ export default function Post({ post, setArticle }) {
           setArticle({ display: post.id, object: post });
         }}
         className="m-2 "
+        data-aos="fade"
       >
         <div class="max-w-sm w-full h-full lg:max-w-full lg:flex">
           <div
