@@ -14,7 +14,7 @@
 
 ## Overview of Site
 
-![MJ Shelton Portfolio](https://i.imgur.com/TOVgcQ8.jpg)
+![MJ Shelton Portfolio](https://i.imgur.com/WdpLevg.jpg)
 
 
 ## Summary
