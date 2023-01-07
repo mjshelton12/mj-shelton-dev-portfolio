@@ -8,13 +8,13 @@ export default function Navigation({ setCurrent }) {
               className="flex lg:h-9 items-center justify-between nav-bar"
               aria-label="Global"
             >
-              <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
+              <div className="lg:flex lg:min-w-0 lg:flex-1" aria-label="Global">
             
                 <a href="#" className="-m-1.5 p-1.5">
                   <span className="font-semibold text-xl">MJ Shelton</span><span> | Fullstack Engineer</span>
                 </a>
               </div>
-              <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+              <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
                 <a
                   href="#"
                   className="font-semibold text-gray-900 hover:text-gray-900 mx-4"

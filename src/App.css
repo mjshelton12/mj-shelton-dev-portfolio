@@ -289,9 +289,7 @@ body {
   color: rgb(101, 101, 91);
 }
 
-/* Half-Screen Sizing */
-
-@media (max-width:1200px) {
+/* Half-Screen Sizing */@media (max-width:1200px) {
 
   /* Half-Screen Nav-bar */
 

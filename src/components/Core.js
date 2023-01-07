@@ -25,8 +25,8 @@ export default function Core({ current }) {
     }
 
     return(
-        <section className="container mx-auto mt-60 lg:mt-5 relative" >
-            <div className="flex justify-center grid core place-items-center">
+        <section className="sm:container mx-auto sm:mt-60 lg:mt-5 sm:relative" >
+            <div className="flex justify-center sm:grid core place-items-center">
                 {displayComponent()}
             </div>
         </section>
