@@ -93,12 +93,6 @@ body {
 
 /* About Page */
 
-.about div {
-  padding: 30px;
-  margin: 30px;
-  display: flex;
-}
-
 #about {
   height: 375px;
   width: 375px;
@@ -275,32 +269,28 @@ body {
   color: rgb(101, 101, 91);
 }
 
-/* Half-Screen Sizing */@media (max-width:1200px) {
+/* Half-Screen Sizing */
 
-  /* Half-Screen Nav-bar */
-
-  .page-nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 180px;
-  }
-
-  .page-nav ul li {
-    margin: 20px;
-  }
+@media (max-width:1200px) {
 
   /* Half-Screen Changable Content*/
 
   .core {
     width: 600px;
     height: 1085px;
-    margin-top: 70px;
   }
 
   /* Half-Screen About Page*/
 
   .about {
-    justify-content: center;
+    margin-top: -50px;
+  }
+
+  #about {
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    height: 300px;
   }
 
   .about div {
@@ -311,10 +301,8 @@ body {
     padding: 0;
   }
 
-  .about div p {
+  .aboutPara {
     width: 75%;
-    margin: 50px;
-    font-size: 24px;
   }
 
   .about div img {
@@ -360,29 +348,6 @@ body {
 
 @media (max-width:750px) {
 
-  /* Phone Screen Nav-bar */
-
-  .social-header {
-    justify-content: center;
-  }
-
-  .logo-contain {
-    justify-content: center;
-  }
-
-  .logo {
-    width: 275px;
-    margin-top: -70px;
-    margin-left: 0px;
-  }
-
-  .page-nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 230px;
-    margin-left: -15px;
-  }
-
   /* Phone Screen Changable Content*/
 
   .core {
@@ -391,8 +356,8 @@ body {
 
   /*  Phone Screen About Page*/
 
-  .about div p {
-    font-size: 21px;
+  .about{
+    margin-top: -200px;
   }
 
   /*  Phone Screen About Page*/
