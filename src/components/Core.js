@@ -16,7 +16,7 @@ export default function Core({ current }) {
             case'Blog':
             return (<Blog />)
 
-            case'Contact/Resumé':
+            case'Resume/Contact':
             return (<Resume/>)
 
             default:

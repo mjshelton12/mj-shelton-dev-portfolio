@@ -3,7 +3,7 @@ import { useState, useEffect }  from 'react'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
-import Navigation from './components/Navigation'
+import Navigation2 from './components/Navigation2'
 import Header from './components/Header'
 import Core from './components/Core'
 import Footer from './components/Footer'
@@ -22,7 +22,7 @@ function App() {
  
   return (
     <div>
-      <Navigation setCurrent={setCurrent} current={current}/>
+      <Navigation2 setCurrent={setCurrent} current={current}/>
       {/* <Header /> */}
       <br></br>
       <Core setCurrent={setCurrent} current={current} />
