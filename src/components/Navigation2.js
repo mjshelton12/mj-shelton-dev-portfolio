@@ -48,7 +48,7 @@ export default function Navigation({ setCurrent }) {
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
                   <a href="#" className="-m-1.5 p-1.5">
-                    <span className="font-semibold text-xl">MJ Shelton</span><span> | Fullstack Engineer</span>
+                    <span className="font-semibold text-xl">MJ Shelton</span><span> | Menu</span>
                   </a>
                 </div>
                 <div className="flex">

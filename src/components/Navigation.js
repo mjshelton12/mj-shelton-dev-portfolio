@@ -16,6 +16,7 @@ export default function Navigation({ setCurrent }) {
                   <span className="font-semibold text-xl">MJ Shelton</span><span> | Fullstack Engineer</span>
                 </a>
               </div>
+
               <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
                 <a
                   href="#"

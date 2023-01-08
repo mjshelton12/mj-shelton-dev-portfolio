@@ -48,13 +48,11 @@ export default function Project({ project }) {
       <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{project.title}</div>
           <div className="flex">
-            <button
+            <a href={project.site} target="blank"><button
               className="bg-gray-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-full"
-              href={project.site}
-              target="blank"
             >
               Live Site
-            </button>
+            </button></a>
             <a href={project.repo} target="blank">
               <img
                 className="github hover:bg-blue-300"
