@@ -4,6 +4,7 @@
   "homepage": "https://mjshelton12.github.io/mj-shelton-dev-portfolio/",
   "private": true,
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

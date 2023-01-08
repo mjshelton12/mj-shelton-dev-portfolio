@@ -1,3 +1,5 @@
+import { useState}  from 'react'
+
 export default function Navigation({ setCurrent }) {
   return (
     <>
@@ -95,9 +97,9 @@ export default function Navigation({ setCurrent }) {
                       </a>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
+        </div>
           </div>
         </div>
       </div>
