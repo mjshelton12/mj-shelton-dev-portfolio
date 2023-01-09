@@ -2,7 +2,7 @@ import { resumeData } from "../data/resumeData";
 
 export default function Resume() {
   return (
-    <div className="resume text-lg" data-aos="fade">
+    <div className="resume text-lg mb-32 lg:mb-0" data-aos="fade">
       <div>
         <a className='download' href={resumeData.download}>
           <p className="text-2xl">Click to Download MJ Shelton's Resume</p>

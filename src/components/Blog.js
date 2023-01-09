@@ -36,5 +36,5 @@ export default function Blog() {
     }
   }
 
-  return <div className="" data-aos="fade">{displayContent()}</div>;
+  return <div className="mb-32 lg:mb-0" data-aos="fade">{displayContent()}</div>;
 }
