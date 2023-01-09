@@ -7,11 +7,12 @@ export default function Portfolio() {
   ));
   return (
     <>
-      <div data-aos="fade">
+      <div className="mb-96" ata-aos="fade">
         <div className="text-center text-lg italic font-semibold">
-          <h2>Scroll Over Projects to See More Info</h2>
+          <div className="hidden sm:block items-center"><p>Scroll Over or Tap Projects to See More Info</p></div>
+          <h2 className="sm:hidden">Tap Projects to See More Info</h2>
         </div>
-        <div className="grid grid-cols-3">{list}</div>
+        <div className="grid grid-cols-3 h-fit">{list}</div>
       </div>
     </>
   );

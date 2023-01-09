@@ -5,7 +5,6 @@
 body {
   background-color: white;
   background: linear-gradient(to top left, rgb(0, 215, 239) 0%, 40%, white 40%, white 100%);
-  /* background: linear-gradient(to top left, rgb(95, 132, 235) 0%, white 40%); */
 }
 
 /* Navigation Bar */
@@ -283,7 +282,7 @@ body {
   /* Half-Screen About Page*/
 
   .about {
-    margin-top: -50px;
+    margin-top: -100px;
   }
 
   #about {
@@ -357,12 +356,12 @@ body {
   /*  Phone Screen About Page*/
 
   .about{
-    margin-top: -200px;
+    margin-top: -125px;
   }
 
   /*  Phone Screen About Page*/
   .project-info div {
-    font-size: 17px
+    margin-left: -3px;
   }
 
   .project-tech {

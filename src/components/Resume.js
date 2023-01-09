@@ -23,6 +23,7 @@ export default function Resume() {
         <p>Languages: {resumeData.languages}</p>
         <p>Backend: {resumeData.backend}</p>
         <p>Frontend: {resumeData.frontend}</p>
+        <p>Other: {resumeData.other}</p>
       </div>
     </div>
   );
