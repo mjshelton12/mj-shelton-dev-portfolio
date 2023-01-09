@@ -26,7 +26,7 @@ export default function Core({ current }) {
 
     return(
         <section className="flex justify-center mx-auto lg:mt-5 relative h-fit" >
-            <div className="justify-center sm:grid h-screen place-items-center core">
+            <div className="justify-center sm:grid h-screen place-items-center">
                 {displayComponent()}
             </div>
         </section>

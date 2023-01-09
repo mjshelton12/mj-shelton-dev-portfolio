@@ -242,14 +242,12 @@ body {
   text-decoration: none;
 }
 
-.resume div a h2 {
+.resume div a p {
   color: rgb(78, 69, 46);
-  font-size: 25px;
 }
 
-.resume div h2 {
+.resume div p {
   color: rgb(78, 69, 46);
-  font-size: 25px;
 }
 
 .email a img {
@@ -323,16 +321,14 @@ body {
   }
 
   .skills h2 {
-    font-size: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
   .skills p {
-    font-size: 40px;
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 75px;
+    margin-top: 25px;
   }
 }
 

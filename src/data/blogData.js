@@ -5,33 +5,8 @@ export const blogData = [
     alt: "MJ On Set",
     title: "How is TV Post Production Like an Agile Project?",
     description:
-      "A TV show is just a giant project. Don't believe me? Read this post to find out!",
-    blog: `<p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>`,
+      "COMING SOON! - A TV show is just a giant project. Don't believe me? Read this post to find out!",
+    blog: "Coming Soon!",
   },
   {
     id: 2,
@@ -48,8 +23,8 @@ export const blogData = [
     alt: "Database Image",
     title: "MySQL vs MongoDB",
     description:
-      "A fight to the death between databases",
-    blog: "Let's get ready to rumble!",
+      "COMING SOON - A fight to the death between databases",
+    blog: "<p>Coming Soon!</p><p>Let's get ready to rumble!</p>",
   },
 ];
 
