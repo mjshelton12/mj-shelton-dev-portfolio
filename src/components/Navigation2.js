@@ -18,7 +18,7 @@ export default function Navigation({ setCurrent }) {
         <div>
           <nav className="flex h-9 items-center justify-between " aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-                <a href="#" className="-m-1.5 p-1.5">
+                <a href="#" className="-m-1.5 p-1.5" onClick={() => setCurrent("About")}>
                   <span className="font-semibold text-xl">MJ Shelton</span><span> | Fullstack Engineer</span>
                 </a>
             </div>
