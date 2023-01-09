@@ -61,7 +61,7 @@ export default function Project({ project }) {
                 />
               </a>
             </div>
-            <p className="hidden lg:flex mt-2">{project.description}</p>
+            <p className="hidden sm:flex mt-2">{project.description}</p>
             <p className="text-sm mt-2 text-center sm:text-left">
               <b className="text-gray-800 font-semibold">Technology Used:</b>{" "}
               {project.tech}
