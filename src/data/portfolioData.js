@@ -21,7 +21,7 @@ export const portfolioData = [
   },
   {
     id: 3,
-    site: 'https://eat-the-bagel.herokuapp.com/',
+    site: 'https://mjs-escape-app.herokuapp.com/',
     repo: 'https://github.com/mjshelton12/MJs-Escape-App',
     title: "Escape App",
     tech: "Express, MySQL, Handlebars.js",
