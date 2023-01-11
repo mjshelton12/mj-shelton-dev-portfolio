@@ -25,6 +25,7 @@ export default function Post({ post, setArticle }) {
               <div class="text-gray-900 font-bold text-xl mb-2">
                 {post.title}
               </div>
+              <p>By MJ Shelton</p>
               <p class="text-gray-700 text-base">{post.description}</p>
             </div>
           </div>

@@ -6,6 +6,7 @@ export default function BlogPost({setArticle, article}) {
     return(
         <div className="blog-post h-max" data-aos="fade">
             <p className="blog-title">{article.object.title}</p>
+            <p>By MJ Shelton</p>
             <div className="blog-content">
                 <p>{blog}</p>
             </div>
