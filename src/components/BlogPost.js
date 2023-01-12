@@ -7,7 +7,7 @@ export default function BlogPost({setArticle, article}) {
         <div className="blog-post h-max" data-aos="fade">
             <p className="blog-title">{article.object.title}</p>
             <p>By MJ Shelton</p>
-            <div className="blog-content">
+            <div className="blog-content w-full">
                 <p>{blog}</p>
             </div>
             <p className="blog-disclaimer">Scroll to keep reading</p>

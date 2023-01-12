@@ -215,7 +215,7 @@ body {
 
 .blog-content {
   text-align: left;
-  height: 325px;
+  height: 500px;
   width: 900px;
   overflow-y: scroll;
 }
@@ -301,6 +301,10 @@ body {
     height: 50%;
   }
 
+  .blog-content {
+    width: 500px;
+  }
+
   /* Half-Screen Contact Page*/
 
   .form-label {
@@ -349,5 +353,9 @@ body {
 
   .resume div a h2 {
     font-size: 40px;
+  }
+
+  .blog-content {
+    width: 350px;
   }
 }
