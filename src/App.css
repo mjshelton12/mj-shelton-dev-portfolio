@@ -1,55 +1,15 @@
-.App {
-  text-align: center;
-}
+/* Site Background */
 
 body {
   background-color: white;
   background: linear-gradient(to top left, rgb(0, 215, 239) 0%, 40%, white 40%, white 100%);
 }
 
-/* Navigation Bar */
-
-.nav-bar {
-  z-index: 1000;
-  position:relative;
-}
-
-.page-nav {
-  font-size: 20px;
-  color: rgb(193, 193, 177);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
-  width: 100%;
-  margin-top: 140px;
-}
-
-.page-nav a {
-  text-decoration: none;
-  margin-left: -10px
-}
-
-.page-nav ul li {
-  font-size: 30px;
-  list-style-type: none;
-  display: inline-block;
-  margin: 40px;
-}
-
-.selected {
-  color: rgb(106, 94, 64);
-}
-
 .not-selected {
   color: rgb(225, 225, 194);
 }
 
-/* Social Media Links for Header and Footer */
-
-.social-header {
-  justify-content: right;
-  display: flex;
-  width: 100%;
-}
+/* Social Media Links for Footer */
 
 .footer div {
   justify-content: center;
@@ -65,6 +25,7 @@ body {
 
 .socials {
   margin-left: -40px;
+  padding-top: 5px;
 }
 
 .socials li {
@@ -82,12 +43,6 @@ body {
 /* Changable Content */
 
 .core {
-  /* background-color: rgb(193, 193, 177);
-  margin-top: 75px;
-  margin-bottom: 40px;
-  width: 1100px;
-  border-radius: 5px; */
-  margin-top: -20px;
   height: 95vh;
 }
 
@@ -115,12 +70,6 @@ body {
 
 /* Portfolio */
 
-.project-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .project-box {
   border-radius: 25px;
 }
@@ -130,11 +79,6 @@ body {
   height: 100%;
   opacity: 0%;
   border-radius: 25px;
-}
-
-.project-details {
-  margin-top: 5px;
-  padding: 5px;
 }
 
 .project-info:hover {
@@ -148,61 +92,7 @@ body {
   border-radius: 1000px;
 }
 
-/* .project-info p {
-  margin-top: -5px;
-} */
-
 /* Blog */
-
-.blog-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.blog-container a {
-  text-decoration: none;
-  width: 95%;
-}
-
-.blog-box {
-  width: 100%;
-  margin-top: 19px;
-  flex: 1 1 300px;
-  border-radius: 25px;
-}
-
-.blog-info {
-  margin-top: -5px;
-  width: 100%;
-  height: 140px;
-  opacity: 0%;
-  border-radius: 25px;
-}
-
-.blog-details {
-  margin-top: 5px;
-  padding: 5px;
-  color: rgb(101, 101, 91);
-}
-
-.blog-info:hover {
-  background-color: rgb(193, 193, 177, 0.9);
-  opacity: 100%;
-}
-
-.blog-info p {
-  margin-top: -5px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.blog-info div {
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: 500;
-  text-align: center;
-}
 
 .blog-post {
   text-align: center;
@@ -228,9 +118,8 @@ body {
 /* Resume */
 
 .resume div {
-  width: 100%;
   text-align: center;
-  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .resume div img {
@@ -239,32 +128,22 @@ body {
   opacity: 50%;
 }
 
-.download {
-  text-decoration: none;
-}
-
 .resume div a p {
   color: rgb(78, 69, 46);
 }
 
-.resume div p {
+.email p {
   color: rgb(78, 69, 46);
 }
 
 .email a img {
   height: 35px;
   width: 35px;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 .skills {
-  color: rgb(78, 69, 46);
-  margin-top: 50px;
-}
-
-.skills p {
   color: rgb(101, 101, 91);
+  margin-top: 50px;
 }
 
 /* Half-Screen Sizing */
@@ -273,13 +152,7 @@ body {
 
   /* Half-Screen About Page*/
 
-  /* .about {
-    margin-top: -100px;
-  } */
-
   #about {
-    margin: 0px;
-    padding: 0px;
     width: 300px;
     height: 300px;
   }
@@ -288,73 +161,27 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     width: 100%;
-    margin: 0;
-    padding: 0;
   }
 
   .aboutPara {
     width: 75%;
   }
 
-  .about div img {
-    width: 50%;
-    height: 50%;
-  }
-
   .blog-content {
-    width: 500px;
-  }
-
-  /* Half-Screen Contact Page*/
-
-  .form-label {
-    display: block;
-    margin-top: 40px;
-  }
-
-  .message-text {
-    width: 500px;
-    height: 300px;
-    vertical-align: top;
-  }
-
-  /* Half-Screen Resume Page*/
-
-  .resume div a h2 {
-    font-size: 50px;
-    margin-bottom: 70px;
+    width: 400px;
   }
 }
+
 /* Phone Screen Sizing */
 
 @media (max-width:750px) {
-
-  /*  Phone Screen About Page*/
-
-  /* .about{
-    margin-top: -125px;
-  } */
 
   /*  Phone Screen About Page*/
   .project-info div {
     margin-left: -3px;
   }
 
-  .project-tech {
-    font-size: 0px;
-  }
-  /* Half-Screen Contact Page*/
-
-  .message-text {
-    width: 280px;
-  }
-
-  /* Half-Screen Resume Page*/
-
-  .resume div a h2 {
-    font-size: 40px;
-  }
-
+  /* Half-Screen Blog Page*/
   .blog-content {
     width: 350px;
   }
