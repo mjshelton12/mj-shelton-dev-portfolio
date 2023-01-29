@@ -1,8 +1,8 @@
 export const portfolioData = [
   {
     id: 1,
-    site: 'https://cosmic-chariots.herokuapp.com/',
-    repo: 'https://github.com/space-frontiers/cosmic_chariots_frontend',
+    site: 'https://mjs-cosmic-chariots.herokuapp.com/',
+    repo: 'https://github.com/mjshelton12/cosmic_chariots_frontend',
     title: "Space Frontiers: Cosmic Chariots",
     tech: "MERN: MongoDB, Express, ReactJS, Node, GraphQL",
     img: 'https://camo.githubusercontent.com/8c54335e96f53c842314236152673262730a11629cbd9a1b6ed466e9d105a7ea/68747470733a2f2f692e696d6775722e636f6d2f325567574d76682e6a7067',
