@@ -25,7 +25,7 @@ export default function Core({ current }) {
     }
 
     return(
-        <section className="flex justify-center mx-auto relative" >
+        <section className="flex justify-center mx-4 lg:mx-24 relative" >
             <div className="innercore justify-center sm:grid place-items-center overflow-scroll">
                 {displayComponent()}
             </div>
