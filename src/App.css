@@ -21,11 +21,13 @@ body {
 .footer div p {
   color: rgb(81, 80, 80);
   font-style: italic;
+  padding-bottom: 5px;
 }
 
 .socials {
   margin-left: -40px;
   padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .socials li {
@@ -42,8 +44,9 @@ body {
 
 /* Changable Content */
 
-.core {
-  height: 95vh;
+.innercore {
+  height: 94vh;
+  margin-top: -10px;
 }
 
 /* About Page */
@@ -155,6 +158,10 @@ body {
   #about {
     width: 300px;
     height: 300px;
+  }
+
+  .innercore {
+    margin-top: 0px;
   }
 
   .about div {
