@@ -30,7 +30,7 @@ export default function Blog() {
             <div className="text-center text-lg italic font-semibold">
               <h2>Click a Blog to Read</h2>
             </div>
-            <div className="grid grid-cols-3">{list}</div>
+            <div className="grid md:grid-cols-3">{list}</div>
           </div>
         );
     }

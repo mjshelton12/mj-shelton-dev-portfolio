@@ -18,12 +18,17 @@ export default function Resume() {
           <img src="https://imgur.com/y9pUlMt.jpg" alt="Email Logo" />
         </a>
       </div>
-      <div className="skills">
+      <div className="skills flex">
+        <div className="flex-row">
         <p className="text-2xl">MJ's Technical Skills</p>
         <p className="text-lg">Languages: {resumeData.languages}</p>
+        <br />
         <p className="text-lg">Backend: {resumeData.backend}</p>
+        <br />
         <p className="text-lg">Frontend: {resumeData.frontend}</p>
+        <br />
         <p className="text-lg">Other: {resumeData.other}</p>
+        </div>
       </div>
     </div>
   );

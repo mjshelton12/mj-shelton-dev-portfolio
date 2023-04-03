@@ -63,7 +63,6 @@ body {
 .aboutPara {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(101, 101, 91);
-  font-size: 20px;
   width: 750px;
   margin-top: 40px;
   margin-left: 30px;
@@ -147,6 +146,7 @@ body {
 .skills {
   color: rgb(101, 101, 91);
   margin-top: 50px;
+  width: 800px;
 }
 
 /* Half-Screen Sizing */
@@ -171,7 +171,7 @@ body {
   }
 
   .aboutPara {
-    width: 75%;
+    width: 500px;
   }
 
   .blog-content {
@@ -181,6 +181,10 @@ body {
   .download {
     margin-top: 50px;
   }
+
+  .skills {
+    width: 400px;
+  }
 }
 
 /* Phone Screen Sizing */
@@ -188,12 +192,28 @@ body {
 @media (max-width:750px) {
 
   /*  Phone Screen About Page*/
+  .aboutPara {
+    width: 275px;
+  }
   .project-info div {
     margin-left: -3px;
   }
 
-  /* Half-Screen Blog Page*/
+  /* Phone Screen Blog Page*/
   .blog-content {
     width: 300px;
   }
+
+  /* Phone Screen Skills*/
+  .skills {
+    display: flex;
+    width: 300px;
+  }
+
+  .skills div p {
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+  }
+
 }
